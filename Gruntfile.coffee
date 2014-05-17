@@ -26,14 +26,26 @@ module.exports = (grunt) ->
         files: ['src/**/*.coffee', 'root/**/*', 'Gruntfile.coffee']
         tasks: ['default']
 
-    
     mochacli:
       all: ['test/**_test.coffee']
+
+    bump:
+      options:
+        commit: true
+        commitMessage: 'Release v%VERSION%'
+        commitFiles: ['package.json']
+        createTag: true
+        tagName: 'v%VERSION%'
+        tagMessage: 'Version %VERSION%'
+        push: false
+        signCommits: true
+        signTags: true
 
   grunt.loadNpmTasks 'grunt-contrib-coffee'
   grunt.loadNpmTasks 'grunt-contrib-watch'
   grunt.loadNpmTasks 'grunt-contrib-clean'
   grunt.loadNpmTasks 'grunt-mocha-cli'
+  grunt.loadNpmTasks 'grunt-bump'
 
   grunt.registerTask 'build', ['coffee']
 

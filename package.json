@@ -11,7 +11,8 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt-mocha-cli": "^1.8.0",
     "logankoester-nixt": "^0.3.0",
-    "grunt-contrib-clean": "^0.5.0"
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-bump": "git://github.com/logankoester/grunt-bump#gpg-sign"
   },
   "scripts": {
     "test": "grunt test"

@@ -1,9 +1,11 @@
 (function() {
-  var cmd, nixt, tmpdir;
+  var cmd, nixt, path, tmpdir;
 
   nixt = require('logankoester-nixt');
 
-  cmd = 'grunt-init --no-color ../../grunt-init-phonegap';
+  path = require('path');
+
+  cmd = 'grunt-init --no-color ' + path.join(path.resolve('./'));
 
   tmpdir = 'tmp';
 

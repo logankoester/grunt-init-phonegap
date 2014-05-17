@@ -1,6 +1,7 @@
 nixt = require 'logankoester-nixt'
+path = require 'path'
 
-cmd = 'grunt-init --no-color ../../grunt-init-phonegap'
+cmd = 'grunt-init --no-color ' + path.join(path.resolve('./'))
 tmpdir = 'tmp'
 
 describe 'grunt-init-phonegap', ->

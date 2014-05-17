@@ -1,4 +1,4 @@
-nixt = require 'nixt'
+nixt = require 'logankoester-nixt'
 
 cmd = 'grunt-init --no-color ../../grunt-init-phonegap'
 tmpdir = 'tmp'

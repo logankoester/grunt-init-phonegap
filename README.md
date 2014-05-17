@@ -6,8 +6,6 @@
 [![devDependency Status](https://david-dm.org/logankoester/grunt-init-phonegap/dev-status.png)](https://david-dm.org/logankoester/grunt-init-phonegap#info=devDependencies)
 [![Gittip](http://img.shields.io/gittip/logankoester.png)](https://www.gittip.com/logankoester/)
 
-[![NPM](https://nodei.co/npm/grunt-init-phonegap.png?downloads=true)](https://nodei.co/npm/grunt-init-phonegap/)
-
 ## Installation
 
 If you haven't already done so, install [grunt-init](http://gruntjs.com/project-scaffolding).

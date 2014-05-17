@@ -1,7 +1,7 @@
 {
   "name": "grunt-init-phonegap",
   "version": "0.0.0",
-  "description": "Create a grunt-phonegap project",
+  "description": "Interactively generate a new Phonegap project using grunt-phonegap",
   "main": "template.js",
   "dependencies": {
     "grunt": "~0.4.5"

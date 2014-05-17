@@ -10,7 +10,7 @@
     "grunt-contrib-coffee": "^0.10.1",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-mocha-cli": "^1.8.0",
-    "nixt": "git+ssh://git@github.com:logankoester/nixt.git#suppose",
+    "logankoester-nixt": "^0.3.0",
     "grunt-contrib-clean": "^0.5.0"
   },
   "scripts": {

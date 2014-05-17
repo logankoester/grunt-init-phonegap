@@ -1,0 +1,35 @@
+{
+  "name": "grunt-init-phonegap",
+  "version": "0.0.0",
+  "description": "Create a grunt-phonegap project",
+  "main": "template.js",
+  "dependencies": {
+    "grunt": "~0.4.5"
+  },
+  "devDependencies": {
+    "grunt-contrib-coffee": "^0.10.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha-cli": "^1.8.0",
+    "nixt": "git+ssh://git@github.com:logankoester/nixt.git#suppose",
+    "grunt-contrib-clean": "^0.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/logankoester/grunt-init-phonegap"
+  },
+  "keywords": [
+    "grunt-phonegap",
+    "phonegap",
+    "cordova",
+    "grunt-init"
+  ],
+  "author": "Logan Koester",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/logankoester/grunt-init-phonegap/issues"
+  },
+  "homepage": "https://github.com/logankoester/grunt-init-phonegap"
+}

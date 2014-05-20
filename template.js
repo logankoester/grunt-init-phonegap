@@ -16,7 +16,9 @@
         pkg.main = 'Gruntfile.coffee';
         pkg.devDependencies = {
           "grunt": "~0.4.5",
-          "grunt-phonegap": "~0.15.1"
+          "grunt-phonegap": "~0.15.1",
+          "grunt-contrib-connect": "~0.7.1",
+          "grunt-contrib-watch": "~0.4.0"
         };
         return pkg;
       });

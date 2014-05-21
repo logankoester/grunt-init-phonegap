@@ -1,14 +1,11 @@
 nixt = require 'logankoester-nixt'
 path = require 'path'
 
-cmd = 'grunt-init --no-color ' + path.resolve(__dirname, '..')
-tmpdir = 'tmp'
-
 describe 'grunt-init-phonegap', ->
   it 'runs successfully', (done) ->
     nixt(colors: false)
-      .cwd tmpdir
-      .run cmd
+      .cwd 'tmp'
+      .run 'grunt-init --no-color ' + path.resolve(__dirname, '..')
       .on(/Project name/).respond 'TestApp\n'
       .on(/id/).respond 'com.testapp\n'
       .on(/Description/).respond 'A simple test app\n'

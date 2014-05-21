@@ -8,7 +8,17 @@
 
 ![Demo](https://cloud.githubusercontent.com/assets/19319/3005347/d911f6c6-ddda-11e3-9c87-679ca82b5499.gif)
 
+
+## Jump to Section
+
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Release History](#release-history)
+* [License](#license)
+
 ## Installation
+[[Back To Top]](#grunt-phonegap)
 
 If you haven't already done so, install [grunt-init](http://gruntjs.com/project-scaffolding).
 
@@ -18,15 +28,44 @@ Once grunt-init is installed, place this template in your `~/.grunt-init/` direc
 
 _(Windows users, see the documentation for the correct destination directory path)_
 
+
+
 ## Usage
+[[Back To Top]](#grunt-phonegap)
 
 At the command-line, cd into an empty directory, run this command and follow the prompts.
 
     grunt-init phonegap
 
-_Note that this template will generate files in the current directory, so be sure to change to a new directory first if you don't want to overwrite existing files_
+
+## Contributing
+[[Back To Top]](#grunt-phonegap)
+
+Fork the repo on Github and open a pull request. Note that `template.js` and `test/template_test.js` are the output of
+CoffeeScript files in `src/`, and will be overwritten if edited by hand.
+
+Likewise, `README.md` is the output of the `grunt docs` task, and will be overwritten. README updates should be made in
+the Markdown files under `docs/`.
+
+Please run `grunt build` before submitting a pull request. The build output should be included with your changes.
+
+
+## Release History
+[[Back To Top]](#grunt-phonegap)
+
+You can find [all the changelogs here](/docs/releases).
+
+### Latest changelog is from v1.0.0.md:
+
+#### v1.0.0
+
+* Adds connect and watch with livereload mounted in `www/` ([#4](https://github.com/logankoester/grunt-init-phonegap/pull/4)) - thanks [@gabrielpoca](https://github.com/gabrielpoca)!
+
 
 ## License
+[[Back To Top]](#grunt-phonegap)
 
 Copyright (c) 2014 Logan Koester.
 Released under the MIT license. See `LICENSE-MIT` for details.
+
+
